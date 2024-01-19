@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@font-face {
+    font-family: minhaFOnte;
+    src: url(/minhaFonte/minhafonte.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    #sectionContainer {
+        display: flex;
+        justify-self: center;
+        align-items: flex-start;
+        border-radius: 20px;
+    }
+
+    #formulario {
+        display: flex;
+        align-items: flex-start;
+        width: 290px;
+    }
+
+    .item {
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #iinicio, #ifim, #ipasso {
+        border-radius: 7px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ires {
+        font-size: 1.2em;
+    }
+    
+    
+    
+    
+}
